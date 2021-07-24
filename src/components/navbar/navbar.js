@@ -1,8 +1,8 @@
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
+import { Navbar, Container, NavDropdown } from 'react-bootstrap'
 import "./navbar.css"
 const NavbarComp = () => {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar expand="lg">
             <Container>
                 {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
                 <NavDropdown>
