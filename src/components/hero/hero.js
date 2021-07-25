@@ -1,6 +1,7 @@
 import { Carousel } from 'react-bootstrap'
 import './hero.css'
 import image from './img.jpg'
+import Butt from './button'
 
 const Car = () => {
     return (
@@ -12,6 +13,7 @@ const Car = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
+                    <Butt></Butt>
                     <h3>First slide label</h3>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
@@ -24,6 +26,7 @@ const Car = () => {
                 />
 
                 <Carousel.Caption>
+                <Butt></Butt>
                     <h3>Second slide label</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </Carousel.Caption>
@@ -36,6 +39,7 @@ const Car = () => {
                 />
 
                 <Carousel.Caption>
+                <Butt></Butt>
                     <h3>Third slide label</h3>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </Carousel.Caption>
