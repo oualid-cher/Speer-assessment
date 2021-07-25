@@ -1,6 +1,6 @@
 import { Carousel } from 'react-bootstrap'
 import './hero.css'
-import image from './img.jpg'
+import image from './img.png'
 import Butt from './button'
 
 const Car = () => {

@@ -1,0 +1,33 @@
+#red {
+    background-color: tomato;
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#red-button{
+    padding: 1rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    align-self: flex-end;
+    background-color: transparent;
+    margin-left: -13rem;
+    margin-bottom: -6rem;
+}
+
+.speakers {
+    height: 15rem;
+    width: 25rem;
+}
+
+#img-speaker {
+display: flex;
+align-self: flex-end;
+height: 10rem;
+width: 10rem;
+}
+
+#speaker-first {
+    margin-top: -5rem;
+}
