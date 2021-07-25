@@ -5,3 +5,7 @@
 .carousel-dark .carousel-caption {
     color: whitesmoke;
 }
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: whitesmoke;
+}
