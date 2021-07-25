@@ -2,9 +2,9 @@ import { Navbar, Container, NavDropdown } from 'react-bootstrap'
 import "./navbar.css"
 const NavbarComp = () => {
     return (
-        <Navbar expand="lg">
+        <Navbar expand="lg" fixed="top">
             <Container>
-                {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
+
                 <NavDropdown>
                     <NavDropdown.Item href="#action/3.1">WHAT IS IT</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">PERKS</NavDropdown.Item>
