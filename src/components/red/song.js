@@ -24,7 +24,7 @@ const useAudio = url => {
 
 const Player = ({ url }) => {
     const [playing, toggle] = useAudio(url);
-
+    console.log(playing);
     return (
         <div>
             <button onClick={toggle} id="red-button">CLICK</button>
