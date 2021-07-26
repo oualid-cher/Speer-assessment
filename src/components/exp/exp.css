@@ -1,0 +1,15 @@
+#exp{
+background-color: #1FE1E9;
+height: 50vh;
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+align-items: center;
+}
+#title{
+color: #D34848;
+}
+#title1{
+    color: white;
+}
