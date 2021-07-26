@@ -13,7 +13,6 @@
     align-items: center;
     margin-top: 5rem;
     margin-left: -19rem;
-
 }
 
 #img2 {
@@ -56,4 +55,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#yellow-txt {
+    margin-top: -16rem;
+}
+
+#img3-div {
+    background-color: black;
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+    margin-left: 65rem;
+    margin-top: 1rem;
 }
