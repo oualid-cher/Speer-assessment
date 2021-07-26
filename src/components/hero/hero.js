@@ -1,50 +1,52 @@
 import { Carousel } from 'react-bootstrap'
 import './hero.css'
-import image from './img.png'
+import image1 from './img1.png'
+import image2 from './img2.png'
+import image3 from './img3.png'
 import Butt from './button'
 
 const Car = () => {
     return (
         <Carousel fade variant="dark">
             <Carousel.Item>
-                <img 
-                style={{height : "100vh"}}
+                <img
+                    style={{ height: "100vh" }}
                     className="d-block w-100"
-                    src={image}
+                    src={image1}
                     alt="First slide"
                 />
                 <Carousel.Caption>
                     <Butt></Butt>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>INTERACTIVE CONCERT EXPERIENCE</h3>
+                    <p>Experience your favourite artists like never before and from the comfort of your own home.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    style={{height : "100vh"}}
-                    src={image}
+                    style={{ height: "100vh" }}
+                    src={image2}
                     alt="Second slide"
                 />
 
                 <Carousel.Caption>
-                <Butt></Butt>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <Butt></Butt>
+                    <h3>INTERACTIVE CONCERT EXPERIENCE</h3>
+                    <p>Experience your favourite artists like never before and from the comfort of your own home.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    style={{height : "100vh"}}
-                    src={image}
+                    style={{ height: "100vh" }}
+                    src={image3}
                     alt="Third slide"
                 />
 
                 <Carousel.Caption>
-                <Butt></Butt>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <Butt></Butt>
+                    <h3>INTERACTIVE CONCERT EXPERIENCE</h3>
+                    <p>Experience your favourite artists like never before and from the comfort of your own home.</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel >

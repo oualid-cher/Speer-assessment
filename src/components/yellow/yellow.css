@@ -2,6 +2,10 @@
     background-color: #FFB33F;
     height: 100vh;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
 }
 
 #img1 {
@@ -28,8 +32,6 @@
 
 #img-div {
     display: flex;
-    margin-left: 15rem;
-    padding-top: 3rem;
 }
 
 #reveal {
@@ -59,7 +61,7 @@
 }
 
 #yellow-txt {
-    margin-top: -16rem;
+    padding: 2rem;
 }
 
 #img3-div {
@@ -67,9 +69,17 @@
     border-radius: 50%;
     height: 15rem;
     width: 15rem;
-    margin-left: 65rem;
-    margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    margin-bottom: -80vh;
+    left: 24vw;
+}
+
+#yellow-demo {
+    margin-left: -7rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 2em;
 }

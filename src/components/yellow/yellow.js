@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap"
+import { Container, Button } from "react-bootstrap"
 import "./yellow.css"
 
 const Yellow = () => {
@@ -14,6 +14,7 @@ const Yellow = () => {
             <div id="yellow-txt">
                 <h3>FRONT ROW SEATS</h3>
                 <p>Experience concerts up close and personal.</p>
+                <Button id="yellow-demo">SEE DEMO</Button>
             </div>
             <div id="img3-div">
                 <h3 >IMAGE</h3>
