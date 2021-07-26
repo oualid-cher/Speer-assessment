@@ -1,6 +1,7 @@
 #yellow {
     background-color: #FFB33F;
     height: 100vh;
+    overflow: hidden;
 }
 
 #img1 {
@@ -68,4 +69,7 @@
     width: 15rem;
     margin-left: 65rem;
     margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
