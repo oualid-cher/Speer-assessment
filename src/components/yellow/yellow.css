@@ -1,0 +1,59 @@
+#yellow {
+    background-color: #FFB33F;
+    height: 100vh;
+}
+
+#img1 {
+    background-color: black;
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: -19rem;
+
+}
+
+#img2 {
+    background-color: black;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-div {
+    display: flex;
+    margin-left: 15rem;
+    padding-top: 3rem;
+}
+
+#reveal {
+    background-color: black;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    margin-left: -2rem;
+    
+}
+
+#reveal-txt {
+    font-size: 1rem;
+    border: solid 2px white;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    padding: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

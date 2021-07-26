@@ -2,7 +2,7 @@ import { Button } from "react-bootstrap";
 
 const Butt = () => {
     return (
-<Button variant="secondary">TRY IT NOW</Button>
+<Button variant="secondary" style={{borderRadius : "2em"}}>TRY IT NOW</Button>
     )
 }
 

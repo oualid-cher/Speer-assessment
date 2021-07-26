@@ -1,8 +1,7 @@
 #red {
     background-color: tomato;
     padding: 10rem;
-    display: flex;
-    flex-direction: column;
+    height: 100vh;
 }
 
 #red-button{
@@ -18,7 +17,7 @@
 
 .speakers {
     height: 15rem;
-    width: 25rem;
+    width: 10rem;
 }
 
 #img-speaker {
@@ -30,4 +29,11 @@ width: 10rem;
 
 #speaker-first {
     margin-top: -5rem;
+}
+
+#red-demo {
+    margin-left: -13rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 2em;
 }
